@@ -1,0 +1,20 @@
+Salin folder/file berikut ke project Laravel 12 yang baru:
+- app/Http/Controllers/*
+- app/Http/Middleware/*
+- app/Models/*
+- app/Services/*
+- database/migrations/*
+- database/seeders/DatabaseSeeder.php
+- resources/views/*
+- routes/web.php
+- Dockerfile
+- docker/
+- firebase.json
+- firebase-public/
+- .dockerignore
+- .env.example.budget
+- DEPLOY_FIREBASE.md
+
+Lalu jalankan:
+composer require phpoffice/phpspreadsheet
+php artisan migrate --seed

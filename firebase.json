@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "firebase-public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "run": {
+          "serviceId": "budget-tracker",
+          "region": "asia-southeast2",
+          "pinTag": true
+        }
+      }
+    ]
+  }
+}
